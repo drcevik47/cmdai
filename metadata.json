@@ -1,0 +1,6 @@
+{
+  "name": "LocalLLM Agent",
+  "description": "Local on-device LLM engine with GPU acceleration, model downloader, and terminal agent interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

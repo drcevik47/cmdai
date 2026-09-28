@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Chip Frame -->
+    <path
+        android:pathData="M34,32h40c2.2,0 4,1.8 4,4v36c0,2.2 -1.8,4 -4,4h-40c-2.2,0 -4,-1.8 -4,-4v-36c0,-2.2 1.8,-4 4,-4z"
+        android:fillColor="#1F2937"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00FF9D" />
+
+    <!-- Chip Pins Top & Bottom -->
+    <path
+        android:pathData="M40,26v6 M48,26v6 M54,26v6 M60,26v6 M68,26v6 M40,76v6 M48,76v6 M54,76v6 M60,76v6 M68,76v6"
+        android:strokeWidth="2"
+        android:strokeColor="#38BDF8" />
+
+    <!-- Chip Pins Left & Right -->
+    <path
+        android:pathData="M24,40h6 M24,48h6 M24,54h6 M24,60h6 M24,68h6 M78,40h6 M78,48h6 M78,54h6 M78,60h6 M78,68h6"
+        android:strokeWidth="2"
+        android:strokeColor="#38BDF8" />
+
+    <!-- Console Prompt symbol >_ inside the chip -->
+    <!-- > bracket -->
+    <path
+        android:pathData="M40,46l8,8l-8,8"
+        android:strokeWidth="3.2"
+        android:strokeColor="#00FF9D"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- _ cursor -->
+    <path
+        android:pathData="M54,62h14"
+        android:strokeWidth="3.2"
+        android:strokeColor="#38BDF8"
+        android:strokeLineCap="round" />
+
+    <!-- Neural node dots -->
+    <path
+        android:pathData="M56,44a2,2 0 1,0 4,0a2,2 0 1,0 -4,0 M66,48a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#00FF9D" />
+</vector>
+

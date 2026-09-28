@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="0"
+                android:startY="0"
+                android:endX="108"
+                android:endY="108"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#0D1117" />
+                <item android:offset="0.5" android:color="#161B22" />
+                <item android:offset="1.0" android:color="#0A0C10" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Subtle circuit grid accent -->
+    <path
+        android:pathData="M24,54h60 M54,24v60"
+        android:strokeWidth="1"
+        android:strokeColor="#2000FF9D" />
+    <path
+        android:pathData="M34,34h40v40h-40z"
+        android:strokeWidth="1"
+        android:strokeColor="#2500FF9D" />
+</vector>
+
